@@ -10,7 +10,7 @@ function AppRouter(){
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
-                {/* <Route path='/weeklylogs' element{<WeeklyLog/>} /> */}
+                <Route path='/weeklylog' element={<WeeklyLog/>} />
             </Routes>
         </Router>
     );
