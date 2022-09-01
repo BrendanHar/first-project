@@ -1,10 +1,11 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
+import WeeklyLogNav from "./WeeklyLogNav";
 
 function WeeklyLog(){
     return(
         <div className="App">
             <header className="App-header">
-                <Navbar/>
+                <WeeklyLogNav />
                 <h1>Weekly Logs Page</h1>
             </header>
         </div>

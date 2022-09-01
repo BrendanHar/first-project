@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Home from '../pages/Home';
 import About from '../pages/About';
-import WeeklyLog from '../pages/WeeklyLog';
+import WeeklyLog from '../pages/WLogs/WeeklyLogHome';
 
 function AppRouter(){
     return(
